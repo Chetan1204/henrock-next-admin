@@ -3,7 +3,7 @@
 import React,{useState} from "react";
 import SettingComponent from '../../components/doctors/SettingComponent';
 import doctorAuth from "hooks/doctorAuth";
-import ReportsCollectionComponent from "../../components/doctors/ReportsCollectionComponent";
+
 
 const ReportsCollection: React.FC = () => {
   const { isAuthenticated, user } = doctorAuth(); 
@@ -14,7 +14,7 @@ const ReportsCollection: React.FC = () => {
   
   return (
     <>
-      <ReportsCollectionComponent/>
+   
     </>
   );
 };
