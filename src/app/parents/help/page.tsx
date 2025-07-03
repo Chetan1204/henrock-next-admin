@@ -1,9 +1,9 @@
 // src/pages/parents/Settings.tsx
-import HelpPage from "modules/parents/HelpPage";
+
 import "styles/global.scss"
 
 const ProfilePage = () => {
-  return <HelpPage />;
+  return ;
 };
 
-export default HelpPage;
+export default ProfilePage;
