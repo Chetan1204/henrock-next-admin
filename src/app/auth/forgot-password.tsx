@@ -1,7 +1,7 @@
 // src/pages/auth/forgot-password.tsx
 import React from 'react';
 // Update the import path below if the actual path is different
-import ForgotPasswordForm from '@/components/auth/ForgotPasswordForm';
+
 import Image from 'next/image';
 import "../../styles/global.scss"
 
@@ -25,7 +25,7 @@ const ForgotPasswordPage: React.FC = () => {
         <div className="max-w-md w-full">
           <div className="min-h-screen flex items-center justify-center">
             <div className="max-w-md w-full space-y-8 absolute top-1/2 left-1/1 transform -translate-x-2/3 -translate-y-1/2 bg-gray-50 p-8 br-20 form-wrap">
-            <ForgotPasswordForm />
+          
             </div>
           </div>
         </div>
