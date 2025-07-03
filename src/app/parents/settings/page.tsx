@@ -1,9 +1,9 @@
 // src/pages/parents/Settings.tsx
-import SettingsPage from 'modules/parents/SettingsPage';
+
 import "styles/global.scss"
 
 const ProfilePage = () => {
-  return <SettingsPage />;
+  return 
 };
 
-export default SettingsPage;
+export default ProfilePage;
