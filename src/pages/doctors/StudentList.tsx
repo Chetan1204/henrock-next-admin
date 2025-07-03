@@ -1,7 +1,7 @@
 "use client";
 
 import React,{useState} from "react";
-import StudentListComponent from '../../components/doctors/StudentListComponent';
+
 import doctorAuth from "hooks/doctorAuth";
 
 const StudentList: React.FC = () => {
@@ -13,7 +13,7 @@ const StudentList: React.FC = () => {
   
   return (
     <>
-      <StudentListComponent/>
+    
     </>
   );
 };
