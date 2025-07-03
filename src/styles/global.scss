@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  ),
+  rgb(var(--background-start-rgb));
+  font-family: "Mulish", sans-serif !important;
+}
+
+.dark body {
+  color: rgb(var(--foreground-rgb-dark));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb-dark))
+  ),
+  rgb(var(--background-start-rgb-dark));
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.placeholder-small::placeholder {
+  font-size: 0.85rem; 
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.br-40 {
+  border-radius: 40px;
+}
+
+.h-300{
+  height:300px;
+}
+
+.h-15{
+  height:7rem;
+}
+
+.mt-15{
+  margin-top:5rem;
+}
+
+.h--12{
+  height: 4.4rem;
+}
+
+//*, ::before, ::after{
+  //border:none!important;
+//}
+
+
+/* Login Css */
+
+@media screen and (min-width: 320px) and (max-width: 815px) {
+  .left-sec{
+    display:none;
+  }
+  .right-sec{
+    background-color: #fff;
+    .form-wrap{
+      position:relative;
+      --tw-translate-y: 0%;
+      --tw-translate-x:0%;
+    }
+  }
+  .max-h-screen{
+    max-height:100%;
+  }
+  .h-screen {
+    height: 100%;
+  }
+}
+.custom-table{
+  border:1px solid #eee!important;
+  border-radius:14px;
+  padding:15px;
+}
+.skeleton-img-wrapper{
+  width: 100%;
+  height:650px;
+  img{
+    height:100%;
+    width:100%;
+    object-fit:contain;
+  }
+  .specs{
+    border:1px solid #eee;
+    border-radius:12px;
+    max-width:120px;
+    min-width:100px;
+    img{
+      width:50px;
+      height:50px;
+      margin:0 auto;
+    }
+  }
+  .specs-height{
+    left: 0;
+    top: 0;
+    svg{
+      fill:#ccc;
+      position:absolute;
+      right: -15px;
+      bottom:40px;
+    }
+  }
+  .specs-weight{
+    left: 0;
+    bottom: 0;
+    svg{
+      fill: #ccc;
+      position: absolute;
+      right: -9px;
+      top: -10px;
+      transform: rotate(315deg);
+    }
+  }
+  .specs-bmi{
+    right: 0;
+    bottom: 60px;
+    svg{
+      fill: #ccc;
+      position: absolute;
+      left: -9px;
+      top: -10px;
+      transform: rotate(45deg);
+    }
+  }
+}
+.z-index-1{
+  z-index: 1;
+}
+.mb-3rem{
+  margin-bottom:3rem;
+}
+
+.error-message{
+  margin-top: 4px !important;
+}

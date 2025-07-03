@@ -1,0 +1,415 @@
+"use client";
+
+import React, { useState } from "react";
+import Link from "next/link";
+import "../doctors/DoctorsStyles.css";
+import "../doctors/DoctorsResponsiveStyles.css";
+import { PDFViewer, pdf } from "@react-pdf/renderer";
+import { ReportPDF } from "./ParentsReportPdf";
+import { EmployeeReportPDF } from "./EmployeeReportPdf";
+import { CorporateReportPDF } from "./CorporateReportPdf";
+import { SchoolConsolidatedReportPDF } from "./SchoolConsolidatedReportPdf";
+
+
+const reportData = {
+  doctorName: "Dr. John Doe",
+  specialty: "Cardiology",
+  reportDetails:
+    "This is a detailed report of the doctor's activities and insights.",
+};
+
+const ReportsComponent: React.FC = () => {
+
+  const handleShowParentsReportPDF = async () => {
+    // Generate the PDF as a blob
+    const blob = await pdf(<SchoolConsolidatedReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL
+    const url = URL.createObjectURL(blob);
+
+    // Open the blob URL in a new tab
+    window.open(url, "_blank");
+
+    // Revoke the URL after a short delay to free resources
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+
+  const handleDownloadParentsReportPDF = async () => {
+    // Create a PDF blob
+    const blob = await pdf(<ReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL and trigger the download
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "parent_Report.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url); // Clean up the URL object
+  };
+
+  const handleShowCorporatePDF = async () => {
+    // Generate the PDF as a blob
+    const blob = await pdf(<ReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL
+    const url = URL.createObjectURL(blob);
+
+    // Open the blob URL in a new tab
+    window.open(url, "_blank");
+
+    // Revoke the URL after a short delay to free resources
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+
+  const handleDownloadEmployeePDF = async () => {
+    // Create a PDF blob
+    const blob = await pdf(<EmployeeReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL and trigger the download
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "employee_Report.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url); // Clean up the URL object
+  };
+
+
+  const handleShowPDF = async () => {
+    // Generate the PDF as a blob
+    const blob = await pdf(<EmployeeReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL
+    const url = URL.createObjectURL(blob);
+
+    // Open the blob URL in a new tab
+    window.open(url, "_blank");
+
+    // Revoke the URL after a short delay to free resources
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+
+
+    const handleDownloadCorporatePDF = async () => {
+    // Create a PDF blob
+    const blob = await pdf(<CorporateReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL and trigger the download
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "corporate_Report.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url); // Clean up the URL object
+  };
+
+
+  const handleShowPDF = async () => {
+    // Generate the PDF as a blob
+    const blob = await pdf(<CorporateReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL
+    const url = URL.createObjectURL(blob);
+
+    // Open the blob URL in a new tab
+    window.open(url, "_blank");
+
+    // Revoke the URL after a short delay to free resources
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+
+  const handleDownload = async () => {
+    // Create a PDF blob
+    const blob = await pdf(<SchoolConsolidatedReportPDF {...reportData} />).toBlob();
+
+    // Create a blob URL and trigger the download
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "school_Report.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url); // Clean up the URL object
+  };
+
+  return (
+    <>
+      <section className="doctor-dashboard-wr parents">
+        <div className="doctor-dashboard-inner-container parents">
+          {/* right wr */}
+          <div className="doctors-right-wr parents-report">
+            <div className="student-list-nav-wr">
+              <div className="doctors-nav-wr">
+                <Link href="/doctors">Dashboard</Link>
+                <span>
+                  <img src="/doctors/right-arrow.png" alt="" />
+                </span>
+                <Link href="#">Reports</Link>
+              </div>
+            </div>
+
+            {/* main content area */}
+            <div className="doctors-main-content-wr">
+              <div className="student-list-wr">
+                {/* student list */}
+
+                <div className="num-student-wr">
+                  <h4>
+                    <strong>3</strong> Reports
+                  </h4>
+                </div>
+                <div className="student-list-card-wr parent">
+                  <ul>
+                    {/*  card starts */}
+                    <li className="student-list-card-container">
+                      {/* student-detail-left-container */}
+                      <div className="student-detail-left-container">
+                        <figure className="student-gender-img">
+                          <img src="/doctors/male-student.png" alt="" />
+                        </figure>
+
+                        <div className="student-details-wr">
+                          <h4 className="student-name">Chandresh Jain</h4>
+                          <div className="student-sub-details-wr">
+                            <span>
+                              <strong>Unique ID: </strong>
+                              IITI-019
+                            </span>
+                            <span> • </span>
+                            <span>
+                              <strong>Class:</strong>
+                              1st ( B )
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      {/* student-detail-left-container */}
+                      <div className="student-detail-right-container">
+                        <div className="student-detail-inner-left-container">
+                          <div>
+                            <ul>
+                              <li>
+                                <strong>Mobile Number: </strong>
+                                <span>975-123-9875</span>
+                              </li>
+                              <li>
+                                <strong>DOB: </strong>
+                                <span>25 Sep, 2016</span>
+                              </li>
+                              <li>
+                                <strong>Scanning Date: </strong>
+                                <span>06/01/2025 - 16:01PM</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul>
+                              <li>
+                                <strong>Update: </strong>
+                                <span>06/01/2025 - 16:01PM</span>
+                              </li>
+                              <li>
+                                <strong>Test: </strong>
+                                <span>100%</span>
+                              </li>
+                              <li>
+                                <strong>Test Status: </strong>
+                                <span>02 / 08</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="student-detail-inner-right-container">
+                          <Link onClick={handleShowCorporatePDF} href="#">
+                            View Report
+                          </Link>
+                          <Link onClick={handleDownloadEmployeePDF} href="#">
+                            Download Report
+                          </Link>
+                        </div>
+                      </div>
+                    </li>
+                    {/*  card ends */}
+            {/*  card starts */}
+            <li className="student-list-card-container">
+                      {/* student-detail-left-container */}
+                      <div className="student-detail-left-container">
+                        <figure className="student-gender-img">
+                          <img src="/doctors/male-student.png" alt="" />
+                        </figure>
+
+                        <div className="student-details-wr">
+                          <h4 className="student-name">Chandresh Jain</h4>
+                          <div className="student-sub-details-wr">
+                            <span>
+                              <strong>Unique ID: </strong>
+                              IITI-019
+                            </span>
+                            <span> • </span>
+                            <span>
+                              <strong>Class:</strong>
+                              1st ( B )
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      {/* student-detail-left-container */}
+                      <div className="student-detail-right-container">
+                        <div className="student-detail-inner-left-container">
+                          <div>
+                            <ul>
+                              <li>
+                                <strong>Mobile Number: </strong>
+                                <span>975-123-9875</span>
+                              </li>
+                              <li>
+                                <strong>DOB: </strong>
+                                <span>25 Sep, 2016</span>
+                              </li>
+                              <li>
+                                <strong>Scanning Date: </strong>
+                                <span>06/01/2025 - 16:01PM</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul>
+                              <li>
+                                <strong>Update: </strong>
+                                <span>06/01/2025 - 16:01PM</span>
+                              </li>
+                              <li>
+                                <strong>Test: </strong>
+                                <span>100%</span>
+                              </li>
+                              <li>
+                                <strong>Test Status: </strong>
+                                <span>02 / 08</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="student-detail-inner-right-container">
+                          <Link onClick={handleShowParentsReportPDF} href="#">
+                            View Report
+                          </Link>
+                          <Link onClick={handleDownloadParentsReportPDF} href="#">
+                            Download Report
+                          </Link>
+                        </div>
+                      </div>
+                    </li>
+                    {/*  card ends */}
+
+                       {/*  card starts */}
+                       <li className="student-list-card-container">
+                      {/* student-detail-left-container */}
+                      <div className="student-detail-left-container">
+                        <figure className="student-gender-img">
+                          <img src="/doctors/male-student.png" alt="" />
+                        </figure>
+
+                        <div className="student-details-wr">
+                          <h4 className="student-name">Chandresh Jain</h4>
+                          <div className="student-sub-details-wr">
+                            <span>
+                              <strong>Unique ID: </strong>
+                              IITI-019
+                            </span>
+                            <span> • </span>
+                            <span>
+                              <strong>Class:</strong>
+                              1st ( B )
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      {/* student-detail-left-container */}
+                      <div className="student-detail-right-container">
+                        <div className="student-detail-inner-left-container">
+                          <div>
+                            <ul>
+                              <li>
+                                <strong>Mobile Number: </strong>
+                                <span>975-123-9875</span>
+                              </li>
+                              <li>
+                                <strong>DOB: </strong>
+                                <span>25 Sep, 2016</span>
+                              </li>
+                              <li>
+                                <strong>Scanning Date: </strong>
+                                <span>06/01/2025 - 16:01PM</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <ul>
+                              <li>
+                                <strong>Update: </strong>
+                                <span>06/01/2025 - 16:01PM</span>
+                              </li>
+                              <li>
+                                <strong>Test: </strong>
+                                <span>100%</span>
+                              </li>
+                              <li>
+                                <strong>Test Status: </strong>
+                                <span>02 / 08</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="student-detail-inner-right-container">
+                          <Link onClick={handleShowPDF} href="#">
+                            View Report
+                          </Link>
+                          <Link onClick={handleDownload} href="#">
+                            Download Report
+                          </Link>
+                        </div>
+                      </div>
+                    </li>
+                    {/*  card ends */}
+                  </ul>
+                </div>
+              </div>
+              <div className="school-list-pagination-wr">
+                <div className="pagination">
+                  <Link href="#">&laquo;</Link>
+                  <Link href="#" className="active">
+                    1
+                  </Link>
+                  <Link href="#">2</Link>
+                  <Link href="#">3</Link>
+                  <Link href="#">4</Link>
+                  <Link href="#">5</Link>
+                  <Link href="#">&raquo;</Link>
+                </div>
+              </div>
+            </div>
+
+            {/* footer-area */}
+            <div className="doctors-footer-wr">
+              <h6>
+                © 2025. Vigour360. Developed by{" "}
+                <Link href="https://www.immersiveinfotech.com/">
+                  Immersive infotech
+                </Link>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default ReportsComponent;

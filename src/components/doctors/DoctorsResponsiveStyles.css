@@ -1,0 +1,1499 @@
+@media only screen and (max-width: 1919px) {
+  
+  .inner-right-container {
+    width: 21%;
+  }
+  .student-detail-inner-right-container {
+    width: 21%;
+  }
+  .medical-test-tabber-container {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1679px) {
+  .text-left.doctor-login-left-contaianer img {
+    width: 40%;
+  }
+
+  .student-detail-inner-left-container li {
+    /* font-size: 19px; */
+     font-size: 17px;
+  }
+  .student-list-card-wr > ul > li {
+    gap: 20px;
+  }
+  .student-list-card-wr > ul > li > div.student-detail-left-container {
+    width: 40%;
+  }
+
+  .student-detail-inner-left-container {
+    gap: 10px;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-detail-inner-right-container {
+    width: 21%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .doctor-dashboard-inner-container.parents
+    .student-detail-inner-right-container {
+    width: 22%;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-detail-inner-left-container {
+    justify-content: space-between;
+    width: 69%;
+  }
+  .settings-wr .tabber-container > div:nth-child(1) {
+    width: 23%;
+  }
+  .student-stats-wr > div figure {
+    width: 40px;
+  }
+  .student-checks-wr figure {
+    width: 37px;
+    height: 37px;
+  }
+  .student-detail-inner-left-container {
+    justify-content: space-around;
+  }
+  .student-detail-inner-left-container li {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  h4.student-name {
+    font-size: 20px;
+  }
+  .student-sub-details-wr {
+    margin-bottom: 11px;
+    font-size: 17px;
+  }
+  .stats-inner-wr > span:nth-child(1) {
+    font-size: 16px;
+  }
+  .student-personal-detail-wr .details-container h4 {
+    font-size: 21px;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+  .student-personal-detail-wr .student-other-details-wr {
+    padding-top: 6px;
+  }
+  .status-circle-container {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .doctor-dashboard-inner-container.parents
+    .student-detail-inner-right-container {
+    width: 23%;
+  }
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:not(:last-child) {
+    width: 32%;
+  }
+  .settings-wr .tabber-container > div:nth-child(1) {
+    width: 25%;
+  }
+  .school-list-card-wr .details-wr h4 {
+    font-size: 20px;
+  }
+  .school-list-card-wr .details-wr h4,
+  .school-list-card-wr .details-wr strong,
+  .school-list-card-wr .details-wr span {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .school-list-card-wr .details-button-wr a,
+  .school-list-card-wr .details-button-wr button {
+    font-size: 16px;
+  }
+  
+  .student-stats-wr > div {
+    gap: 10px;
+  }
+  .student-detail-inner-right-container {
+    width: 21%;
+  }
+
+  .student-list-wr {
+    margin-bottom: 15px;
+  }
+  .student-list-nav-action-btns button {
+    font-size: 13px;
+  }
+  .student-stats-wr {
+    flex-wrap: wrap;
+  }
+
+  .doctors-nav-wr {
+    padding: 10px 0 15px;
+  }
+  .num-student-wr h4 {
+    font-size: 21px;
+  }
+
+  .school-search-form-wr {
+    margin-bottom: 10px;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    > div.biometric-screening-details-wr {
+    padding: 30px 30px;
+  }
+  .student-other-details-wr h5 {
+    font-size: 14px;
+  }
+  .student-other-details-wr span {
+    font-size: 12px;
+  }
+  .student-other-details-wr > div:nth-child(1) {
+    border-right: 0;
+  }
+  .status-circle-container {
+    height: 190px;
+    width: 180px;
+  }
+  .medical-test-stats-inner-wr > div h4 {
+    font-size: 25px;
+  }
+  .student-other-details-wr > div {
+    width: 50%;
+    padding: 20px 0;
+  }
+  .student-other-details-wr > div:nth-child(1) {
+    margin-right: 11px;
+  }
+  .doctor-login-form-wr {
+    --tw-translate-x: -80px;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-detail-inner-right-container {
+    width: 25%;
+  }
+  .parents-dashboard
+    .w-full.grid.grid-cols-1.sm\:grid-cols-2.md\:grid-cols-3.lg\:grid-cols-4.xl\:grid-cols-6.gap-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .parents-settings-parent-wr {
+    justify-content: flex-start;
+    height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 1367px) {
+  .doctors-main-content-wr.student-list-page {
+    height: 65vh;
+  }
+  .school-list-card-wr .details-wr span.unique-id.location{
+    margin-top: 0;
+  }
+
+  .setting-inner-content-wr .setting-user-detail-wr {
+    flex-direction: row;
+  }
+  .setting-inner-content-wr .view-profile-wr .student-personal-detail-wr .student-other-details-wr {
+    gap: 20px;
+  }
+  .school-list-card-wr .details-wr h4 {
+    font-size: 23px;
+  }
+  .school-list-card-wr .details-button-wr {
+    margin-top: 10px;
+  }
+  .setting-inner-content-wr .view-profile-wr .student-other-details-wr > div {
+    padding: 0;
+  }
+  .student-other-details-wr > div {
+    padding: 10px 0;
+  }
+  .custom-switch-wrs > span {
+    font-size: 19px;
+  }
+  .medical-test-stats-wr .medical-test-stats-inner-wr {
+    margin-top: -70px;
+    margin-bottom: 58px;
+  }
+  .medical-test-stats-inner-wr > div span {
+    margin-top: 20px;
+    margin-bottom: -40px;
+  }
+  .status-circle-container {
+    height: 180px;
+    width: 180px;
+  }
+  .medical-test-tabber-container .tab-button {
+    flex: 1;
+    padding: 0px 20px 20px 20px;
+  }
+  .medical-test-tabber-container {
+    padding: 10px 20px 10px;
+  }
+  .medical-test-tabber-container .tab-button figure img {
+    height: 40px;
+    width: 40px;
+  }
+  .medical-test-tabber-container .tab-button {
+    padding: 0px 20px 10px 20px;
+  }
+  .doctors-main-content-wr.medical-test .student-detail-stats-wr {
+    width: 100%;
+  }
+  .doctors-main-content-wr.medical-test .student-detail-stats-wr {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .doctors-main-content-wr.medical-test .student-detail-stats-wr > div {
+    padding: 20px 10px 0;
+  }
+  .doctors-main-content-wr.medical-test {
+    overflow-y: scroll;
+    height: 75vh;
+    overflow-x: hidden;
+    padding-right: 14px;
+    margin-right: 10px;
+  }
+  .biometric-screening-details-wr.eye-test.dental .eye-test-checkbox-wr {
+    flex-direction: row;
+    gap: 60px;
+  }
+  .biometric-screening-details-wr.eye-test.dental .eye-test-checkbox-wr ul li {
+    flex-direction: row;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    .eye-test.cardiovascular
+    .eye-test-checkbox-wr
+    ul
+    li {
+    gap: 20px;
+  }
+  .doctor-login-left-contaianer p.text-lg.text-white {
+    font-size: 16px;
+  }
+  .text-left.doctor-login-left-contaianer img {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .login-page-logo-img {
+    width: 34%;
+  }
+  .setting-inner-content-wr .view-profile-wr .student-personal-detail-wr {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .setting-inner-content-wr
+    .view-profile-wr
+    .student-personal-detail-wr
+    figure {
+    height: 150px;
+    width: 150px;
+    margin: 0;
+  }
+  .doctors-main-content-wr .settings-wr{
+    height: 72vh;
+    overflow-y: auto;
+  }
+
+  .doctor-dashboard-inner-container.parents .student-list-card-wr > ul > li {
+    flex-wrap: wrap;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-list-card-wr
+    > ul
+    > li
+    > div.student-detail-right-container {
+    width: 100%;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-list-card-wr
+    > ul
+    > li
+    > div.student-detail-left-container {
+    width: 100%;
+    border-right: 0;
+  }
+  .doctor-dashboard-inner-container.parents .student-list-card-wr > ul {
+    height: 35vh;
+  }
+
+
+  .doctor-dashboard-inner-container.parents .doctors-right-wr {
+    height: 87vh;
+  }
+  .blog-sidebar {
+    position: absolute;
+    z-index: 10;
+    background: rgb(255, 255, 255);
+    right: 0px;
+    width: 100%;
+    border-left: 1px solid #00000035;
+    box-shadow: 0 0 5px 5px #00000015;
+    height: 100%;
+  }
+  .parents-settings-parent-wr {
+    flex-direction: column;
+    align-items: center;
+  }
+  .parents-settings-parent-wr > aside,
+  .parents-settings-parent-wr > div {
+    width: 100%;
+  }
+
+  main.w-full.md\:w-4\/5.p-4.pt-\[60px\] {
+    width: 100%;
+  }
+
+  main.w-full.md\:w-4\/5.p-4.pt-\[60px\]
+    .tab-content.parents
+    .student-personal-detail-wr {
+    flex-direction: row;
+    gap: 45px;
+  }
+
+  .setting-inner-content-wr
+    .tab-content.parents
+    .student-personal-detail-wr
+    .details-container {
+    width: 72%;
+  }
+  .parents-help-page-wr > div {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .qr-img-wr {
+    padding: 50px 10px;
+    text-align: center;
+  }
+ 
+
+  .doctor-sidebar-wr li a {
+    height: 42px;
+    width: 42px;
+  }
+  .doctor-sidebar-logout a {
+    padding: 10px 7px;
+  }
+  .doctors-left-wr {
+    width: 8%;
+  }
+
+  .settings-wr .tabber-container > div:nth-child(1) {
+    width: 35%;
+  }
+  .student-stats-wr > div {
+    width: 25%;
+    margin-bottom: 10px;
+  }
+  .student-stats-wr {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  .student-list-card-wr > ul > li {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .student-list-card-wr > ul > li > div.student-detail-left-container {
+    width: 100%;
+    border-right: 0;
+  }
+  .student-list-card-wr > ul > li > div.student-detail-right-container {
+    width: 100%;
+  }
+
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:last-child {
+    margin-top: 70px;
+  }
+  .student-other-details-wr h5 {
+    font-size: 15px;
+  }
+
+  .student-other-details-wr > div:nth-child(1) {
+    margin-right: 0px;
+  }
+  .student-other-details-wr > div,
+  .student-other-details-wr > div:nth-child(1) {
+    width: 100%;
+    padding: 0px 0;
+  }
+  .status-circle-container {
+    height: 150px;
+    width: 150px;
+  }
+  .student-personal-detail-wr .student-other-details-wr {
+    gap: 11px;
+  }
+  .student-personal-detail-wr .details-container h4 {
+    padding-bottom: 6px;
+  }
+  .student-personal-detail-wr .details-container > span.student-gender {
+    padding-top: 8px;
+  }
+
+  .medical-test-tabber-container .tab-button {
+    font-size: 16px;
+  }
+
+  .medical-test-tabber-container .tab-button figure img {
+    height: 40px;
+    width: 40px;
+  }
+  .medical-test-tabber-container {
+    padding: 10px 20px 20px;
+  }
+  .medical-test-tabber-container .tab-button {
+    padding: 0px 20px 10px 20px;
+  }
+  .doctors-main-content-wr.medical-test .student-detail-stats-wr {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:not(:last-child),
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:last-child {
+    width: 48%;
+  }
+  .doctors-main-content-wr.medical-test .student-detail-stats-wr > div {
+    padding: 20px 10px;
+  }
+  .eye-test-checkbox-wr {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .eye-test-checkbox-wr > div,
+  .eye-test-section-wr .medical-input-wrs > div {
+    width: 100%;
+  }
+  .medical-input-wrs {
+    gap: 10px;
+  }
+  .eye-test-section-wr.pass-check {
+    padding: 0px 0;
+  }
+  .eye-test-checkbox-wr ul li > div span.eye-issue-detail:nth-child(1) {
+    font-size: 17px;
+  }
+  .eye-test-checkbox-wr ul li > div span.eye-issue-detail:nth-child(2) {
+    font-size: 14px;
+  }
+  .eye-test-checkbox-wr .radio-box {
+    height: 40px;
+  }
+  .teeths-img-container figure svg {
+    height: 30px;
+    width: 30px;
+  }
+
+  .medical-test-tabber-container
+    .tab-content
+    .eye-test.cardiovascular
+    .eye-test-checkbox-wr {
+    gap: 0;
+  }
+  .doctor-login-form-wr {
+    --tw-translate-x: -30px;
+  }
+  h1.text-black.text-3xl.font-\[800\].mt-6 {
+    font-size: 28px;
+  }
+  .doctor-login-form-wr img {
+    width: 20%;
+  }
+  .doctors-main-content-wr .settings-wr .setting-inner-content-wr {
+    height: 53vh;
+    overflow-y: scroll;
+  }
+  button.edit-profile {
+    top: 0;
+  }
+  .doctor-dashboard-inner-container.parents .student-list-card-wr > ul {
+    height: 28vh;
+  }
+  .parents-dashboard .all-details-parents-wr {
+    display: flex;
+    flex-direction: column;
+  }
+  .parents-dashboard .all-details-parents-wr > div {
+    width: 100%;
+  }
+  .parents-help-page-wr {
+    overflow-y: scroll;
+  }
+  .parents-help-page-wr .parents-help-heading-wr p {
+    width: 94%;
+  }
+  .parents-help-page-wr
+    .contact-details-cards-container
+    .contact-detail-card-wr {
+    justify-content: flex-start;
+  }
+  .parents-help-page-wr .contact-details-cards-container h4 {
+    font-weight: 700;
+    font-size: 19px;
+  }
+  .parents-help-page-wr .contact-details-cards-container a {
+    font-size: 16px;
+  }
+  .parents-help-page-wr
+    .contact-details-cards-container
+    .contact-detail-card-wr {
+    height: 250px;
+  }
+  .doctors-main-content-wr.student-list-page{
+    height: 70vh;
+  }  
+  .school-search-form-wr.add-student.import-student.qr-modal.modal.modal-frm-wr {
+    width: 100%;
+  }
+  .qr-left-wr {
+     width: 85%;
+  }
+  /* .add-qr-pg-wr {
+    height: 90vh;
+  } */
+}
+
+@media only screen and (max-width: 1023px) {
+  .school-list-cont {
+    height: 52vh !important;
+  }
+  .settings-wr .tabber-container .tabs .tab {
+    font-size: 15px;
+  }
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:last-child {
+    width: 60%;
+  }
+  .doctors-main-content-wr.medical-test {
+    height: 73vh;
+  }
+  .setting-inner-content-wr
+    .tab-content.parents
+    .student-personal-detail-wr
+    .details-container {
+    width: 79%;
+  }
+  .setting-inner-content-wr
+    .tab-content.parents
+    .view-profile-wr
+    .student-personal-detail-wr
+    figure {
+    height: 130px;
+    width: 130px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  .parents-reports-page-wr {
+    width: 70%;
+  }
+  .school-list-card-wr {
+    width: 100%;
+  }
+  .doctors-left-wr {
+    width: 10%;
+  }
+  .school-search-form-wr form {
+    flex-wrap: wrap;
+  }
+  .school-list-cont {
+    height: 43vh !important;
+    flex-wrap: wrap;
+  }
+  .settings-wr .tabber-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .settings-wr .tabber-container > div:nth-child(1),
+  .settings-wr .tabber-container > div:nth-child(2) {
+    width: 100%;
+  }
+  .settings-wr h3 {
+    margin-bottom: 0;
+  }
+  .settings-wr .tabber-container > div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .settings-wr .tabber-container .tabs .tab:nth-child(1) {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .settings-wr .tabber-container .tabs .tab {
+    width: 49%;
+  }
+  .settings-wr .tabber-container {
+    gap: 20px;
+  }
+  .settings-wr .tabber-container form > div {
+    margin-bottom: 10px;
+  }
+  .settings-wr .tabber-container .tabs .tab {
+    padding: 10px 20px;
+  }
+  .doctors-nav-wr a {
+    font-size: 14px;
+  }
+  .student-stats-wr {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 20px;
+    width: 100%;
+  }
+  .student-stats-wr > div {
+    width: 30%;
+  }
+  .stats-inner-wr {
+    width: 100%;
+  }
+  .student-list-card-wr > ul > li > div.student-detail-right-container {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .student-detail-inner-left-container {
+    width: 100%;
+  }
+  .student-detail-inner-left-container {
+    justify-content: space-between;
+  }
+  .doctors-main-content-wr {
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  .doctors-main-content-wr.student-list-page{
+    padding-right: 30px;
+  }
+  .student-list-nav-wr {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 19px;
+  }
+  .student-list-nav-wr > div {
+    width: 100%;
+  }
+  .student-list-nav-action-btns {
+    margin-left: 25px;
+  }
+  .doctors-right-wr {
+    width: 89%;
+  }
+
+  .doctor-sidebar-logout a {
+    padding: 10px 10px;
+  }
+  .student-stats-wr > div {
+    width: 50%;
+  }
+  .student-stats-wr > div {
+    margin-bottom: 0px;
+  }
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:last-child {
+    width: 98%;
+  }
+  .medical-test-tabber-container .tab-list {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    overflow-x: scroll;
+    gap: 30px;
+  }
+  .custom-switch-wrs > span {
+    font-size: 17px;
+  }
+  .toggle-btn-wr {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .custom-switch-wrs {
+    width: 100%;
+  }
+  .medical-input-wrs {
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .medical-input-wrs > div {
+    width: 48%;
+  }
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:not(:last-child) {
+    width: 98%;
+  }
+  .teeths-img-container {
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  .dental-file-uploader-cards-wr {
+    flex-direction: column;
+  }
+  .doctor-login-form-parent-wr {
+    width: 100%;
+  }
+  main.w-full.md\:w-4\/5.p-4.pt-\[60px\]
+    .tab-content.parents
+    .student-personal-detail-wr {
+    flex-direction: column;
+    gap: 5px;
+  }
+  main.w-full.md\:w-4\/5.p-4.pt-\[60px\] {
+    padding-top: 0px;
+  }
+  .setting-inner-content-wr
+    .tab-content.parents
+    .student-personal-detail-wr
+    .details-container,
+  .setting-inner-content-wr .tab-content.parents .setting-user-detail-wr {
+    width: 100%;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-list-card-wr
+    > ul
+    > li
+    > div.student-detail-right-container {
+    flex-wrap: wrap;
+  }
+
+  .doctor-dashboard-inner-container.parents
+    .student-list-card-wr
+    > ul
+    > li
+    > div.student-detail-right-container
+    > div {
+    width: 100%;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-detail-inner-right-container {
+    flex-direction: row;
+  }
+  .doctor-dashboard-wr.parents {
+    height: auto;
+  }
+  .parents-help-page-wr .contact-details-cards-container {
+    flex-direction: column;
+  }
+  .parents-help-page-wr
+    .contact-details-cards-container
+    .contact-detail-card-wr {
+    width: 50%;
+  }
+  .parents-help-page-wr
+    .contact-details-cards-container
+    .contact-detail-card-wr {
+    justify-content: center;
+  }
+  .parents-help-page-wr > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .parents-help-page-wr {
+    height: 90%;
+  }
+  .doctors-main-content-wr.student-list-page{
+    height: 65vh;
+  }  
+}
+
+@media only screen and (max-width: 767px) {
+  .doctors-main-content-wr.student-list-page {
+    padding-right: 20px;
+  }
+
+  button.close-button {
+    line-height: 24px;
+    height: 26px;
+    width: 26px;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+  .school-search-form-wr .inputs-wr input {
+    padding: 10px 12px;
+  }
+ 
+  .doctors-main-content-wr.medical-test .student-detail-stats-wr > div {
+    padding: 20px 10px 30px;
+  }
+  .student-personal-detail-wr .student-other-details-wr {
+    padding-top: 20px;
+  }
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:last-child {
+    margin-top: 79px;
+  }
+  .biometric-screening-details-wr.eye-test.dental .eye-test-checkbox-wr {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .medical-test-tabber-container .tab-content .eye-test.dental {
+    padding: 30px 10px;
+  }
+  .teeths-img-container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .tab-content.parents .student-other-details-wr > div {
+    width: 48%;
+  }
+  .setting-inner-content-wr
+    .tab-content.parents
+    .view-profile-wr
+    .student-personal-detail-wr
+    .student-other-details-wr {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .doctor-dashboard-inner-container.parents .student-list-card-wr > ul {
+    height: 35vh;
+  }
+  .parents-help-page-wr
+    .contact-details-cards-container
+    .contact-detail-card-wr {
+    width: 80%;
+  }
+  .parents-help-page-wr .parents-help-heading-wr h1 {
+    font-size: 36px;
+  }
+  .add-qr-pg-wr .school-details-wr {
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+    background: linear-gradient(359deg, #242424, #585858);
+    border-radius: 4px;
+    padding: 8px 8px 4px;
+    margin-top: 10px;
+}
+
+
+.doctor-dashboard-wr.qr-deshboard{
+ height: 140vh !important;
+}
+
+.qr-middle-wr h2 {
+    padding: 5px 0;
+    /* margin-bottom: 10px; */
+    border-radius: 3px;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    margin: 0 auto;
+    color: #fff;
+    background: #ff8254;
+    top: 25px;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+}
+.student-list-wr.qr-parent-wr {
+  margin-bottom: 0;
+}
+/* .add-qr-pg-wr {
+  height: 92vh;
+} */
+.qr-left-wr {
+  width: 92%;
+}
+.add-qr-pg-wr .school-details-wr div p{
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+}
+
+@media only screen and (max-width: 650px) {
+  .doctors-main-content-wr.student-list-page {
+    height: 63vh;
+  }
+  .school-search-form-wr .inputs-wr input {
+    padding: 8px 12px;
+  }
+  .school-search-form-wr form .inputs-wr {
+    gap: 9px;
+  }
+  .school-list-card-wr {
+    gap: 10px;
+  }
+  .doctors-nav-wr a {
+    font-size: 15px;
+  }
+  .doctors-nav-wr {
+    padding: 10px 0 5px;
+  }
+  .school-search-form-wr form {
+    gap: 10px;
+  }
+  .school-search-form-wr {
+    margin-bottom: 10px;
+  }
+  .school-search-form-wr .inputs-wr > div {
+    width: 48%;
+  }
+
+  .school-list-cont {
+    padding: 10px;
+    height: 41vh !important;
+  }
+  .settings-wr .tabber-container form label,
+  .settings-wr .tabber-container form input {
+    font-size: 12px;
+  }
+  .student-stats-wr > div figure {
+    width: 60px;
+  }
+  .stats-inner-wr > span:nth-child(1) {
+    font-size: 15px;
+  }
+
+
+  .student-detail-inner-right-container {
+    width: 100%;
+  }
+  .student-detail-inner-left-container {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .medical-input-wrs > div {
+    width: 100%;
+  }
+  .eye-test-section-wr {
+    flex-direction: column;
+  }
+  .eye-test-section-wr > div,
+  .eye-test-checkbox-wr {
+    width: 100%;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    .eye-test.cardiovascular
+    .eye-test-li-content-area {
+    width: 100%;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    .eye-test.cardiovascular
+    .eye-test-checkbox-wr
+    ul
+    li {
+    margin-bottom: 40px;
+  }
+  .switch-account {
+    padding: 10px;
+    font-size: 13px;
+  }
+  .parents-settings-parent-wr .setting-inner-content-wr {
+    padding-top: 20px;
+  }
+  .parents-settings-parent-wr .view-profile-wr {
+    padding-top: 0;
+  }
+  form.qr .add-student-dob-picker,
+  .add-student-class-wr{
+    flex-direction: column;
+  }
+  form.qr .add-student-dob-picker {
+    padding-bottom: 0px;
+  }
+  .modal-frm-left-wr > div, .to-wrap-err, .modal-frm-right-wr > div {
+    margin-bottom: 15px !important;
+  }
+  form.qr .add-student-dob-picker select{
+    width: 100%;
+  }
+  .add-student.import-student.qr-modal.modal .add-student-class-wr > div{
+    width: 100% !important;
+    padding-bottom: 0px;
+  }
+  .add-student.import-student.qr-modal.modal .add-student-class-wr{
+    gap: 0;
+  }
+  /* .add-student.import-student.qr-modal.modal .eye-test-checkbox-wr > div{
+    margin-bottom: 0px;
+  } */
+
+      .eye-test-section-wr > div, .eye-test-checkbox-wr {
+        padding-bottom: 0 !important;
+    }
+    .modal-frm-right-wr > div {
+        padding-bottom: 0px !important;
+        margin-bottom: 0;
+        
+    }
+
+}
+
+@media only screen and (max-width: 567px) {
+  .view-list-container {
+    width: fit-content;
+  }
+  .school-list-card-wr .details-button-wr{
+    justify-content: center;
+  }
+  .import-student.qr-modal.modal .modal-ftr-btns button {
+    font-size: 15px;
+  }
+  .doctors-footer-wr.parents h6 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+  .parents-sidebar-logo {
+    height: auto;
+  }
+  .parents-dashboard .text-md {
+    font-size: 16px;
+  }
+  .parents-dashboard-main-wr {
+    width: 80%;
+  }
+  .school-list-card-wr {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .school-search-form-wr form .inputs-wr {
+    flex-wrap: wrap;
+  }
+  .settings-wr .tabber-container form > div {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .settings-wr .tabber-container form > div > div {
+    width: 100%;
+  }
+
+  .student-list-card-wr > ul > li > div.student-detail-left-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  figure.student-gender-img {
+    margin: 0 auto;
+  }
+  .student-list-nav-action-btns button:not(:last-child) {
+    margin-bottom: 11px;
+    margin-top: 10px;
+  }
+  .doctors-left-wr {
+    width: 14%;
+  }
+  .doctors-right-wr {
+    width: 86%;
+  }
+  .eye-test-checkbox-wr ul li {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .teeths-img-container {
+    flex-direction: column;
+  }
+  .teeths-img-container,
+  .teeths-img-wr {
+    gap: 10px;
+  }
+  .teeths-img-container figcaption {
+    font-size: 16px;
+  }
+  .teeths-img-container figure svg {
+    height: 27px;
+    width: 27px;
+  }
+  .dental-file-uploader-cards-wr > div label {
+    width: 250px;
+    height: 210px;
+  }
+  .file-upload-wrapper h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .view-profile-wr {
+    padding-top: 50px;
+  }
+  .setting-inner-content-wr .view-profile-wr .student-other-details-wr > div {
+    width: 100%;
+  }
+  .setting-inner-content-wr
+    .view-profile-wr
+    .student-personal-detail-wr
+    .student-other-details-wr {
+    gap: 10px;
+  }
+  .setting-inner-content-wr .setting-user-detail-wr {
+    flex-direction: column;
+  }
+
+  button.edit-profile.cancel {
+    top: -6%;
+    height: fit-content;
+  }
+  .settings-wr .tabber-container {
+    gap: 50px;
+  }
+  form.edit-profile-wr {
+    padding-bottom: 50px;
+  }
+  .doctor-dashboard-inner-container.parents .doctors-main-content-wr {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .doctor-dashboard-inner-container.parents
+    .student-detail-inner-right-container {
+    flex-direction: column;
+  }
+  .parents-help-page-wr .parents-help-heading-wr h1 {
+    font-size: 32px;
+  }
+  .school-list-cont {
+    height: 61vh !important;
+  }
+  .doctors-left-wr.qr{
+    display: none;
+  }
+  .add-qr-pg-wr {
+    margin: 40px 0px 40px 0px;
+    padding-right: 0px;
+}
+}
+
+@media only screen and (max-width: 479px) {
+  
+  .medical-input-wrs label,
+  .medical-textarea-wr label {
+    font-size: 15px;
+  }
+  .qr-modal .modal-title {
+    font-size: 17px;
+  }
+  .student-list-wr {
+    margin-bottom: 9px;
+  }
+  .doctors-right-wr {
+    width: 81%;
+  }
+  .student-list-nav-action-btns button {
+    margin: 0 5px 0px 0px;
+    padding: 5px 20px;
+  }
+  .modal-table-wr table th,
+  .modal-table-wr table td {
+    font-size: 13px;
+  }
+  .doctors-left-wr {
+    width: 19%;
+  }
+  .doctors-main-content-wr {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .doctors-main-content-wr.student-list-page {
+    padding-right: 10px;
+  }
+  .school-list-card-wr figure {
+    width: 31%;
+  }
+  .school-list-wr .pagination a,
+  .school-list-pagination-wr .pagination a {
+    padding: 4px 6px;
+  }
+  .settings-wr .tabber-container .tabs .tab {
+    width: 100%;
+  }
+  .settings-wr .tabber-container > div:nth-child(1) {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .settings-wr .tabber-container .tabs .tab:nth-child(1) {
+    margin-right: 0;
+  }
+  .settings-wr .tabber-container > div:nth-child(2) {
+    overflow-y: scroll;
+    height: 29vh;
+  }
+  .doctors-footer-wr {
+    text-align: right;
+  }
+  .doctor-sidebar-wr {
+    height: 73vh;
+  }
+
+  .student-checks-wr {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .status-circle-container {
+    height: 130px;
+    width: 130px;
+  }
+  .medical-test-stats-wr .medical-test-stats-inner-wr {
+    margin-bottom: 38px;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    > div.biometric-screening-details-wr {
+    padding: 30px 20px;
+  }
+  .medical-test-stats-inner-wr > div h4 {
+    font-size: 22px;
+  }
+  .medical-test-stats-inner-wr > div span {
+    font-size: 20px;
+  }
+  .custom-switch-wrs {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .doctors-main-content-wr.medical-test {
+    height: 80vh;
+  }
+  .eye-test-checkbox-wr ul li > div span.eye-issue-detail:nth-child(1) {
+    font-size: 16px;
+  }
+  .eye-test-section-wr > div h4 {
+    font-size: 18px;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    .biometric-screening-details-wr.eye-test.general.overall
+    .medical-submit-btn {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    .biometric-screening-details-wr.eye-test.general.overall
+    .medical-submit-btn
+    > input {
+    width: 100%;
+  }
+  .teeths-img-container,
+  .teeths-img-wr {
+    flex-wrap: wrap;
+  }
+  .dental-file-uploader-cards-wr > div label {
+    width: 220px;
+    height: 180px;
+  }
+  .biometric-screening-details-wr.eye-test.dental .eye-test-checkbox-wr ul li {
+    flex-direction: column;
+  }
+  h1.text-black.text-3xl.font-\[800\].mt-6 {
+    font-size: 26px;
+  }
+  button.font-\[700\].group.relative.w-full.flex.justify-center.py-4.px-3.border.border-transparent.text-md.font-medium.rounded-md.text-white.bg-\[\#1D71B8\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .nav-res-wr {
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+  }
+  .parents-sidebar-logo {
+    height: auto;
+    width: 48px;
+  }
+  .parents-settings-parent-wr button.p-3.mb-4.text-left.rounded.bg-gray-200,
+  .parents-settings-parent-wr
+    button.p-3.mb-4.text-left.rounded.bg-gradient-to-r.from-\[\#e99919\].to-\[\#ff8254\].text-white {
+    font-size: 14px;
+  }
+  .parents-help-page-wr .parents-help-heading-wr h1 {
+    font-size: 28px;
+  }
+  .doctors-right-wr.qr {
+    width: 92%;
+  }
+  .doctors-right-wr.qr
+  .modal-ftr-btns{
+    display: flex;
+    justify-content: center;
+  }
+  .doctors-right-wr.qr
+  .import-student.qr-modal.modal .modal-ftr-btns button{
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+}
+@media only screen and (max-width: 414px) {
+  .doctor-dashboard-inner-container.parents .doctors-right-wr {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .doctor-dashboard-inner-container.parents .student-list-card-wr > ul {
+    height: 48vh;
+  }
+  .doctors-footer-wr.parents h6 {
+    width: 70%;
+  }
+  .modal-table-wr table tr > th:nth-child(1),
+  .modal-table-wr table tr > td:nth-child(1) {
+    padding: 10px 10px;
+  }
+  .doctors-nav-wr {
+    margin-left: 7px;
+  }
+  .doctors-nav-wr a {
+    font-size: 13px;
+    padding-left: 7px;
+  }
+  .student-list-nav-action-btns {
+    margin-left: 14px;
+  }
+  .student-list-nav-action-btns button:not(:last-child) {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .student-list-nav-action-btns button {
+    margin-top: 10px;
+    width: 90%;
+    margin: 10px auto 0;
+  }
+  .num-student-wr h4 {
+    font-size: 18px;
+    padding-bottom: 6px;
+  }
+  .student-list-wr {
+    padding: 10px 15px;
+  }
+  .school-list-card-wr {
+    gap: 10px;
+    padding: 13px 10px 20px 10px;
+  }
+  .school-list-cont {
+    height: 28vh !important;
+  }
+  .school-list-wr .pagination a,
+  .school-list-pagination-wr .pagination a {
+    padding: 4px 4px;
+  }
+  .school-search-form-wr .inputs-wr > div {
+    width: 100%;
+  }
+  .settings-wr .tabber-container form .bottom-input-wr > div,
+  .settings-wr .tabber-container form .bottom-input-wr input {
+    width: 100%;
+  }
+  .medical-test-stats-wr .medical-test-stats-inner-wr {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .doctors-main-content-wr.medical-test
+    .student-detail-stats-wr
+    > div:last-child {
+    margin-top: 29px;
+  }
+  .medical-test-stats-inner-wr > div span {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .custom-switch-wrs {
+    align-items: flex-start;
+  }
+  .custom-switch-wrs > span {
+    font-size: 16px;
+  }
+  .eye-test-section-wr > div h4 {
+    padding: 10px 9px;
+  }
+  .dental-file-uploader-cards-wr > div label {
+    width: 190px;
+    height: 210px;
+  }
+  .setting-inner-content-wr
+    .view-profile-wr
+    .student-personal-detail-wr
+    figure {
+    height: 120px;
+    width: 120px;
+  }
+  .view-profile-wr {
+    padding-top: 20px;
+  }
+  .setting-inner-content-wr
+    .view-profile-wr
+    .student-personal-detail-wr
+    .details-container
+    h4 {
+    font-size: 24px;
+  }
+  .pwd-security-settings.flex.items-center.space-x-2.mb-2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .parents-help-page-wr
+    .contact-details-cards-container
+    .contact-detail-card-wr {
+    width: 100%;
+  }
+  .parents-help-page-wr .parents-help-heading-wr h1 {
+    line-height: 30px;
+    padding-bottom: 19px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .import-student.qr-modal.modal .modal-ftr-btns button {
+    margin-bottom: 12px;
+  }
+  .settings-wr .tabber-container .tabs .tab {
+    font-size: 14px;
+  }
+  .modal {
+    padding: 10px;
+  }
+  .school-list-card-wr .details-button-wr {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .medical-test-tabber-container
+    .tab-content
+    > div.biometric-screening-details-wr {
+    padding: 30px 10px;
+  }
+  .doctors-main-content-wr.medical-test {
+    margin-right: 0px;
+  }
+  .dental-file-uploader-cards-wr > div h3 {
+    font-size: 16px;
+  }
+  .parents-settings-parent-wr h2.text-2xl.font-bold.mb-4.text-black {
+    font-size: 20px;
+  }
+}
