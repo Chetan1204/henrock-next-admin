@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import MedicalTestComponent from '../../components/doctors/MedicalTestComponent';
+
 import { jwtDecode } from 'jwt-decode'; 
 import doctorAuth from "hooks/doctorAuth";
 
@@ -16,7 +16,7 @@ if (!isAuthenticated) {
  
   return (
     <>
-      <MedicalTestComponent />
+      
     </>
   );
 };
