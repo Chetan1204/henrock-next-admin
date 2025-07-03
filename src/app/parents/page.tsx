@@ -1,5 +1,5 @@
 import React from 'react';
-import ParentsDashboard from '../../components/parents/ParentsDashboard';
+
 import "../../styles/global.scss";
 import { userdata } from "app/server-actions/parents/dashboard";
 
@@ -18,7 +18,7 @@ const ParentsPage = async () => {
 
   const data = {}; //await fetchData();
 
-  return <ParentsDashboard  />;
+  return 
 };
 
 export default ParentsPage;
