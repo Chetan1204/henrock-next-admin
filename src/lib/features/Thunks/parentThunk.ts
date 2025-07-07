@@ -43,7 +43,7 @@ export const getParentStudentList = createAsyncThunk(
       const response = await studentList(token);
 
       console.log('getParentStudentList-------',response);
-      dispatch(setparentStudentList(response));
+      // dispatch(setparentStudentList(response));
       dispatch(setLoading(false));
 
       return response.data; // Return data to fulfill the thunk
